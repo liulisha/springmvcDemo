@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Context>
+    <Resource name="jdbc/oracleConnent" 
+        auth="Container" 
+        type="javax.sql.DataSource" 
+        username="tax" 
+        password="tax" 
+        maxIdle="30" 
+        maxWait="10000" 
+        maxActive="100"
+        driverClassName="oracle.jdbc.driver.OracleDriver"
+        url="jdbc:oracle:thin:@200.200.200.190:1521:orcl"
+        logAbandoned="true" />
+</Context>
